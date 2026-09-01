@@ -1,0 +1,87 @@
+// Default Sample Dataset for Apex Workspace
+window.INITIAL_ITEMS = [
+  {
+    id: "item-101",
+    title: "Redesign Landing Page UI/UX",
+    description: "Modernize home page layout with dynamic glassmorphism cards, micro-animations, and vibrant gradients.",
+    category: "Design",
+    priority: "High",
+    status: "In Progress",
+    dueDate: "2026-08-25",
+    budget: 3500,
+    tags: ["UI/UX", "Figma", "Web"],
+    coverColor: "from-indigo-500 to-purple-600",
+    completed: false,
+    createdAt: "2026-08-15T10:00:00Z"
+  },
+  {
+    id: "item-102",
+    title: "Implement Auth & User Profiles",
+    description: "Add JWT token refresh strategy, OAuth Google login, and secure user profile edit settings.",
+    category: "Engineering",
+    priority: "Urgent",
+    status: "To Do",
+    dueDate: "2026-08-22",
+    budget: 4200,
+    tags: ["Backend", "Auth", "Security"],
+    coverColor: "from-rose-500 to-pink-600",
+    completed: false,
+    createdAt: "2026-08-16T14:30:00Z"
+  },
+  {
+    id: "item-103",
+    title: "Optimize Database Indexing",
+    description: "Audit PostgreSQL query execution plans, create targeted indexes for high-read dashboard queries.",
+    category: "Engineering",
+    priority: "Medium",
+    status: "In Review",
+    dueDate: "2026-08-28",
+    budget: 2800,
+    tags: ["PostgreSQL", "Database", "Performance"],
+    coverColor: "from-blue-500 to-cyan-600",
+    completed: false,
+    createdAt: "2026-08-17T09:15:00Z"
+  },
+  {
+    id: "item-104",
+    title: "Mobile App Responsive Testing",
+    description: "Conduct cross-browser touch gesture testing across iOS Safari, Android Chrome, and Tablet viewports.",
+    category: "QA & Testing",
+    priority: "Low",
+    status: "Completed",
+    dueDate: "2026-08-18",
+    budget: 1500,
+    tags: ["Mobile", "QA", "Responsive"],
+    coverColor: "from-emerald-500 to-teal-600",
+    completed: true,
+    createdAt: "2026-08-10T11:20:00Z"
+  },
+  {
+    id: "item-105",
+    title: "Q3 Product Launch Campaign",
+    description: "Prepare social media graphic templates, email launch sequence, and product hunt release strategy.",
+    category: "Marketing",
+    priority: "High",
+    status: "In Progress",
+    dueDate: "2026-08-30",
+    budget: 5000,
+    tags: ["Marketing", "Launch", "Social"],
+    coverColor: "from-amber-500 to-orange-600",
+    completed: false,
+    createdAt: "2026-08-14T16:45:00Z"
+  },
+  {
+    id: "item-106",
+    title: "REST API Endpoint Documentation",
+    description: "Write OpenAPI / Swagger specifications and interactive documentation for developers.",
+    category: "Documentation",
+    priority: "Medium",
+    status: "Completed",
+    dueDate: "2026-08-12",
+    budget: 1200,
+    tags: ["API", "Docs", "Swagger"],
+    coverColor: "from-purple-500 to-indigo-600",
+    completed: true,
+    createdAt: "2026-08-08T08:00:00Z"
+  }
+];
